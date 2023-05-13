@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className="footer-container">
       <div className="footer-copyright">
-        <p className="footer-text">Created By Daniel-Kearsley-Brown</p>
+        <p className="footer-text">Copyright © 2023. All rights are reserved</p>
       </div>
     </div>
   );

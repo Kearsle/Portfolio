@@ -12,7 +12,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+          <Link to="/portfolio" className="navbar-logo" onClick={closeMobileMenu}>
             Daniel Kearsley-Brown
           </Link>
           <div className="menu-icon" onClick={handleClick}>
@@ -22,7 +22,7 @@ function Navbar() {
             <li className="nav-item">
               <HashLink
                 smooth
-                to="/#about"
+                to="/portfolio/#about"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -30,14 +30,19 @@ function Navbar() {
               </HashLink>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <HashLink 
+                smooth
+                to="/portfolio/#experience" 
+                className="nav-links" 
+                onClick={closeMobileMenu}
+              >
                 Experience
-              </Link>
+              </HashLink>
             </li>
             <li className="nav-item">
               <HashLink
                 smooth
-                to="/#projects"
+                to="/portfolio/#projects"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -45,9 +50,14 @@ function Navbar() {
               </HashLink>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <HashLink 
+                smooth 
+                to="/portfolio/#contact" 
+                className="nav-links" 
+                onClick={closeMobileMenu}
+              >
                 Contact
-              </Link>
+              </HashLink>
             </li>
           </ul>
         </div>
