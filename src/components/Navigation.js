@@ -32,7 +32,7 @@ function Navbar() {
             <li className="nav-item">
               <HashLink 
                 smooth
-                to="/portfolio" 
+                to="/portfolio/#experience" 
                 className="nav-links" 
                 onClick={closeMobileMenu}
               >

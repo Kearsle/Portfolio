@@ -1,51 +1,51 @@
 import React from "react";
-import CardItem from "./CardItem";
-import "./Cards.css";
+import ProjectItem from "./ProjectItem";
+import "./Projects.css";
 
-function Cards() {
+function Projects() {
   return (
-    <div id="projects" className="cards">
+    <div id="projects" className="projects">
       <h1>Projects</h1>
-      <div className="cards__container">
-        <div className="cards__wrapper">
-          <ul className="cards__items">
-            <CardItem
+      <div className="projects__container">
+        <div className="projects__wrapper">
+          <ul className="projects__items">
+            <ProjectItem
               src="images/test.jpeg"
               title="Project 1"
               text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar dolor urna, non bibendum lorem tempus vel. In at arcu at urna accumsan vestibulum. Donec dignissim, risus a tincidunt malesuada, velit dui aliquet sem, ac sagittis eros neque sit amet nunc. Fusce facilisis eu magna vel dictum."
-              path="/test"
+              path="https://github.com/Kearsle"
             />
-            <CardItem
+            <ProjectItem
               src="images/test.jpeg"
               title="Project 2"
               text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar dolor urna, non bibendum lorem tempus vel. In at arcu at urna accumsan vestibulum. Donec dignissim, risus a tincidunt malesuada, velit dui aliquet sem, ac sagittis eros neque sit amet nunc. Fusce facilisis eu magna vel dictum."
-              path="/test"
+              path="https://github.com/Kearsle"
             />
-            <CardItem
+            <ProjectItem
               src="images/test.jpeg"
               title="Project 3"
               text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar dolor urna, non bibendum lorem tempus vel. In at arcu at urna accumsan vestibulum. Donec dignissim, risus a tincidunt malesuada, velit dui aliquet sem, ac sagittis eros neque sit amet nunc. Fusce facilisis eu magna vel dictum."
-              path="/test"
+              path="https://github.com/Kearsle"
             />
           </ul>
-          <ul className="cards__items">
-            <CardItem
+          <ul className="projects__items">
+            <ProjectItem
               src="images/test.jpeg"
               title="Project 4"
               text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar dolor urna, non bibendum lorem tempus vel. In at arcu at urna accumsan vestibulum. Donec dignissim, risus a tincidunt malesuada, velit dui aliquet sem, ac sagittis eros neque sit amet nunc. Fusce facilisis eu magna vel dictum."
-              path="/test"
+              path="https://github.com/Kearsle"
             />
-            <CardItem
+            <ProjectItem
               src="images/test.jpeg"
               title="Project 5"
               text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar dolor urna, non bibendum lorem tempus vel. In at arcu at urna accumsan vestibulum. Donec dignissim, risus a tincidunt malesuada, velit dui aliquet sem, ac sagittis eros neque sit amet nunc. Fusce facilisis eu magna vel dictum."
-              path="/test"
+              path="https://github.com/Kearsle"
             />
-            <CardItem
+            <ProjectItem
               src="images/test.jpeg"
               title="Project 6"
               text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar dolor urna, non bibendum lorem tempus vel. In at arcu at urna accumsan vestibulum. Donec dignissim, risus a tincidunt malesuada, velit dui aliquet sem, ac sagittis eros neque sit amet nunc. Fusce facilisis eu magna vel dictum."
-              path="/test"
+              path="https://github.com/Kearsle"
             />
           </ul>
         </div>
@@ -54,4 +54,4 @@ function Cards() {
   );
 }
 
-export default Cards;
+export default Projects;

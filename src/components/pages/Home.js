@@ -1,14 +1,16 @@
 import "../../App.css";
 import AboutSection from "../AboutSection";
-import Cards from "../Cards";
+import Projects from "../Projects";
 import ContactSection from "../ContactSection";
 import Footer from "../Footer";
+import ExperienceSection from "../ExperienceSection";
 
 function Home() {
   return (
     <>
       <AboutSection />
-      <Cards />
+      <ExperienceSection />
+      <Projects />
       <ContactSection />
       <Footer />
     </>
