@@ -12,7 +12,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+          <Link to="/portfolio" className="navbar-logo" onClick={closeMobileMenu}>
             Daniel Kearsley-Brown
           </Link>
           <div className="menu-icon" onClick={handleClick}>
