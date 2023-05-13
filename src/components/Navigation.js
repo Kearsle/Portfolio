@@ -30,9 +30,14 @@ function Navbar() {
               </HashLink>
             </li>
             <li className="nav-item">
-              <Link to="/portfolio" className="nav-links" onClick={closeMobileMenu}>
+              <HashLink 
+                smooth
+                to="/portfolio" 
+                className="nav-links" 
+                onClick={closeMobileMenu}
+              >
                 Experience
-              </Link>
+              </HashLink>
             </li>
             <li className="nav-item">
               <HashLink
@@ -45,9 +50,14 @@ function Navbar() {
               </HashLink>
             </li>
             <li className="nav-item">
-              <Link to="/portfolio" className="nav-links" onClick={closeMobileMenu}>
+              <HashLink 
+                smooth 
+                to="/portfolio/#contact" 
+                className="nav-links" 
+                onClick={closeMobileMenu}
+              >
                 Contact
-              </Link>
+              </HashLink>
             </li>
           </ul>
         </div>
