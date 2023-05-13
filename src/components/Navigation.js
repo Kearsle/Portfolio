@@ -22,7 +22,7 @@ function Navbar() {
             <li className="nav-item">
               <HashLink
                 smooth
-                to="/#about"
+                to="/portfolio/#about"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -30,14 +30,14 @@ function Navbar() {
               </HashLink>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <Link to="/portfolio" className="nav-links" onClick={closeMobileMenu}>
                 Experience
               </Link>
             </li>
             <li className="nav-item">
               <HashLink
                 smooth
-                to="/#projects"
+                to="/portfolio/#projects"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -45,7 +45,7 @@ function Navbar() {
               </HashLink>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <Link to="/portfolio" className="nav-links" onClick={closeMobileMenu}>
                 Contact
               </Link>
             </li>
